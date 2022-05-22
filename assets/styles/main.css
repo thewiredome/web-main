@@ -1395,7 +1395,7 @@ input[type='search']::placeholder {
 }
 
 @media (max-width: 665px) {
-	header .right-pos {
+	.header .right-pos {
 		gap: 0.8rem;
 	}
 
