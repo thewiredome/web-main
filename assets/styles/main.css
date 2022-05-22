@@ -293,7 +293,7 @@ input[type='search']::placeholder {
 .first-section .featured-content1 .img {
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(var(--color-rgba-3), var(--color-rgba-3)), url(../img/demo-img4.jpg);
+	background: linear-gradient(var(--color-rgba-3), var(--color-rgba-3)), url(/assets/img/demo-img4.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -514,7 +514,120 @@ input[type='search']::placeholder {
 	background-repeat: no-repeat;
 }
 
+/* second-section */
+.second-section {
+	flex-direction: column;
+	align-items: center;
+	padding: 1.6rem 3.2rem;
+	justify-content: space-evenly;
+	width: 100%;
+	gap: 1.6rem;
+	height: 25rem;
+	position: relative;
+}
 
+.second-section .slide-container-title {
+	width: 100%;
+	text-align: left;
+	font-size: 1.3rem;
+	font-weight: 400;
+	color: var(--default-dark-text-color);
+}
+
+.slide-container {
+	width: 100%;
+	height: 100%;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 1.6rem;
+}
+
+.second-section .slide-content-container {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.3rem;
+	flex-direction: column;
+	cursor: pointer;
+	/* box-shadow: 0.05rem 0.20rem 0.4rem 0.1rem #ddd; */
+}
+
+.second-section .slide-content-container:nth-child(1) .img {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../img/demo-img2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.second-section .slide-content-container:nth-child(2) .img {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../img/demo-img9.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.second-section .slide-content-container:nth-child(3) .img {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../img/demo-img1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.second-section .slide-content-container:nth-child(4) .img {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../img/demo-img5.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.second-section .slide-content-container .content-bottom {
+	position: absolute;
+	flex-direction: column;
+	left: 1.6rem;
+	right: 1.6rem;
+	top: 1.6rem;
+}
+
+.second-section .slide-content-container .content-bottom .top {
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.8rem;
+	font-size: 0.75rem;
+	font-weight: 400;
+	color: #eee;
+	text-transform: uppercase;
+}
+
+.second-section .slide-content-container .content-bottom .top .category {
+	color: #fff;
+	border-radius: 0.3rem;
+	padding: 0.4rem 0.8rem;
+	background: #09f;
+}
+
+.second-section .slide-content-container .content-bottom .title {
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: #fff;
+}
+
+.second-section .slide-content-container:hover {
+	opacity: 0.8;
+}
 
 
 
