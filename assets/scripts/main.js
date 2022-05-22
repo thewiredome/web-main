@@ -19,3 +19,24 @@ window.onclick = function (event) {
         sideMenu.classList.add('display-none');
     }
 }
+
+var portFolio = document.querySelector('.portfolio-btn');
+var modal = document.querySelector('.popup-modal')
+
+portFolio.addEventListener('click', () => {
+    modal.classList.remove('display-none');
+})
+
+var closeModal = document.querySelectorAll('.close-btn')
+closeModal.forEach(x => {
+    x.addEventListener('click', () => {
+        modal.classList.add('display-none');
+    })
+});
+
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.classList.add('display-none');
+    }
+  }
