@@ -293,7 +293,7 @@ input[type='search']::placeholder {
 .first-section .featured-content1 .img {
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(var(--color-rgba-3), var(--color-rgba-3)), url(/assets/img/demo-img4.jpg);
+	background: linear-gradient(var(--color-rgba-3), var(--color-rgba-3)), url(../img/demo-img4.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -629,7 +629,188 @@ input[type='search']::placeholder {
 	opacity: 0.8;
 }
 
+/* third section */
+.third-section {
+	width: 100%;
+	flex-direction: row;
+	padding: 1.6rem 0rem;
+	border-top: 0.05rem solid var(--default-border-color);
+}
 
+/* left section */
+.third-section .left-section {
+	width: 70%;
+	border-right: 0.05rem solid var(--default-border-color);
+	flex-direction: column;
+}
+
+.left-section .row-section {
+	flex-direction: row;
+	align-items: center;
+	padding: 0rem 3.2rem;
+	justify-content: space-evenly;
+	gap: 1.6rem;
+	width: 100%;
+	height: 25rem;
+}
+
+.left-section .row-section:first-child {
+	margin-bottom: 3.2rem;
+}
+
+.left-section .row-section .content-container {
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	gap: 1.6rem;
+}
+
+.left-section .row-section .content-container .img-container {
+	width: 100%;
+	height: 60%;
+	display: grid;
+	place-items: center;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.left-section .row-section:nth-child(1) .content-container:nth-child(1) .img-container {
+	background: url(../img/demo-img9.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.left-section .row-section:nth-child(1) .content-container:nth-child(2) .img-container {
+	background: url(../img/demo-img10.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.left-section .row-section:nth-child(2) .content-container:nth-child(1) .img-container {
+	background: url(../img/demo-img8.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.left-section .row-section:nth-child(2) .content-container:nth-child(2) .img-container {
+	background: url(../img/demo-img7.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.left-section .content-details {
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 40%;
+}
+
+.left-section .content-details .content-top-container {
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 1rem;
+	text-transform: uppercase;
+	font-size: 0.85rem;
+	color: var(--light-color-7);
+}
+
+.left-section .comments,
+.left-section .likes {
+	cursor: pointer;
+}
+
+.left-section .row-section .content-category {
+	color: var(--link-color-2);
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.left-section .row-section .title {
+	color: var(--default-light-text-color);
+	font-size: 1.3rem;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.left-section .row-section .summary {
+	font-size: 0.85rem;
+	color: var(--footer-text-color-secondary);
+	word-break: keep-all;
+	font-weight: 300;
+}
+
+/* right section */
+.third-section .right-section {
+	width: 30%;
+	flex-direction: column;
+	padding: 0rem 3.2rem;
+	gap: 3.2rem;
+}
+
+.sidebar-content-container {
+	width: 100%;
+	flex-direction: column;
+	gap: 1.6rem;
+	height: 25rem;
+	background: linear-gradient(120deg, var(--color-rgba-1), var(--color-rgba-2));
+	border-radius: 0.5rem;
+	padding: 1.6rem;
+}
+
+.sidebar-content-title {
+	font-weight: 500;
+	font-size: 1.3rem;
+	color: var(--default-light-text-color);
+}
+
+.sidebar-content-container .contents-container {
+	height: 100%;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.sidebar-content-container .posts-container {
+	flex-direction: column;
+	gap: 0.4rem;
+}
+
+.sidebar-content-container .posts-container .post-title {
+	font-size: 1.0rem;
+	cursor: pointer;
+	font-weight: 400;
+	color: var(--light-text-color-7);
+}
+
+.border-bottom {
+	border-bottom: 0.05rem solid var(--default-border-color);
+}
+
+.sidebar-content-container .posts-container .post-bottom-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	color: var(--light-color-7);
+}
+
+.sidebar-content-container .comments,
+.sidebar-content-container .likes {
+	cursor: pointer;
+}
+
+.sidebar-content-container .posts-container .content-category {
+	color: var(--link-color-2);
+	font-weight: 600;
+	cursor: pointer;
+}
 
 
 
