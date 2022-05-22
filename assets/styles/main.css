@@ -1228,6 +1228,7 @@ input[type='search']::placeholder {
     color: #fff;
     background: #09f;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .display-none {
