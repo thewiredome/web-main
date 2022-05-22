@@ -50,10 +50,24 @@
     --footer-text-color-secondary: #666;
     --footer-icon-bgcolor: #666;
     --footer-icon-color: #fff;
+
+    --modal-color-1: rgba(0, 0, 0, 0.501);
+    --modal-color-2: #fff;
+    --modal-color-3: #f1f1f1;
+    --modal-color-4: #444;
+    --modal-color-5: #222;
+    --modal-color-6: #d00;
+    --modal-color-7: #09f;
 }
 
 .dark-theme {
     --default-bgcolor: #333;
+
+    --modal-color-1: rgba(0, 0, 0, 0.7);
+    --modal-color-3: #222;
+    --modal-color-2: #333;
+    --modal-color-4: #f1f1f1;
+    --modal-color-5: #fff;
 
     --scrollbar-track-bgcolor: #888;
     --scrollbar-thumb-bgcolor: #555;
@@ -1136,6 +1150,86 @@ input[type='search']::placeholder {
     cursor: pointer;
 }
 
+.popup-modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: var(--modal-color-1);
+    display: grid;
+    place-items: center;
+}
+
+.popup-modal .modal-content {
+    background: transparent;
+    width: 400px;
+    overflow: hidden;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+
+.popup-modal .modal-content .bi-x-circle-fill {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+
+.popup-modal .modal-content .modal-top {
+    padding: 0.8rem 1.6rem;
+    background: var(--modal-color-3);
+    text-align: center;
+    color: var(--modal-color-5);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.popup-modal .modal-content .description {
+    padding: 1.6rem;
+    background: var(--modal-color-2);
+    color: var(--modal-color-4);
+    font-weight: 300;
+    font-size: 0.99rem;
+}
+
+.popup-modal .modal-content em {
+    padding: 0rem 1.6rem 0.8rem 1.6rem;
+    background: var(--modal-color-2);
+    color: var(--modal-color-4);
+    font-size: 0.95rem;
+}
+
+.popup-modal .modal-content .modal-footer {
+    width: 100%;
+    background: var(--modal-color-3);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem 1.6rem;
+}
+
+.popup-modal .modal-content .modal-footer .close-btn {
+    padding: 0.6rem 1.6rem;
+    border-radius: 0.3rem;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: #222;
+    background: #d00;
+    cursor: pointer;
+}
+
+.popup-modal .modal-content .modal-footer .hire-btn {
+    padding: 0.6rem 1.6rem;
+    border-radius: 0.3rem;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: #fff;
+    background: #09f;
+    cursor: pointer;
+}
+
 .display-none {
     display: none;
 }
@@ -1587,6 +1681,10 @@ input[type='search']::placeholder {
 }
 
 @media (max-width: 500px) {
+    .popup-modal .modal-content {
+        width: 80%;
+    }
+
     .second-section {
         padding: 1.6rem 1.6rem;
     }
@@ -1715,6 +1813,10 @@ input[type='search']::placeholder {
 }
 
 @media (max-width: 390px) {
+    .popup-modal .modal-content {
+        min-width: 350px;
+    }
+
     .fourth-section .slide-container-title {
         min-width: max-content;
         gap: 1rem;
