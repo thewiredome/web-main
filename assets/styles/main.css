@@ -267,6 +267,7 @@ input[type='search']::placeholder {
 }
 
 .sidebar-menu .top {
+    text-decoration: none;
     background: #09f;
     color: #fff;
     width: max-content;
@@ -423,10 +424,6 @@ input[type='search']::placeholder {
 .first-section .featured-content1 .featured-text-container .bottom .date {
     color: var(--text-color-5);
     font-size: 0.85rem;
-}
-
-.display-none {
-    display: none;
 }
 
 .first-section .featured-container {
@@ -1042,6 +1039,7 @@ input[type='search']::placeholder {
 }
 
 .hire-me-container .detail .hire-btn {
+    text-decoration: none;
     padding: 0.6rem 1.6rem;
     background: var(--hire-me-btn-bgcolor);
     border-radius: 0.3rem;
