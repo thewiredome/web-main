@@ -20,6 +20,8 @@ window.onclick = function (event) {
     }
 }
 
+
+
 var portFolio = document.querySelector('.portfolio-btn');
 var modal = document.querySelector('.popup-modal')
 
@@ -33,10 +35,3 @@ closeModal.forEach(x => {
         modal.classList.add('display-none');
     })
 });
-
-
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.classList.add('display-none');
-    }
-  }
