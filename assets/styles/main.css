@@ -114,10 +114,6 @@
     display: flex;
 }
 
-/* 
-
-
-
 html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -125,12 +121,11 @@ html {
 }
 
 body {
+    width: 100%;
     position: relative;
+    background: var(--default-bgcolor);
 }
 
-
-
- */
 ::-webkit-scrollbar {
     width: 1rem;
 }
@@ -153,10 +148,6 @@ body {
     background: var(--scrollbar-thumb-bgcolor-hover);
 }
 
-.wrapper {
-    width: 100%;
-    position: relative;
-}
 
 .header {
     min-width: max-content;
