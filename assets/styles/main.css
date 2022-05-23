@@ -1121,13 +1121,13 @@ input[type='search']::placeholder {
     color: var(--footer-text-color-primary);
 }
 
-.s-policies div {
+.s-policies .footer-links {
+    text-decoration: none;
     font-size: 0.78rem;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 0rem 0.8rem;
-    cursor: pointer;
     color: var(--footer-text-color-secondary);
 }
 
