@@ -121,9 +121,6 @@
     outline: none;
 }
 
-
-
-
 .flex {
     display: flex;
 }
@@ -1135,7 +1132,7 @@ input[type='search']::placeholder {
     align-items: center;
 }
 
-.social-media-handles span {
+.social-media-handles span,  .social-media-handles a{
     margin: 0rem 0.4rem;
 }
 
