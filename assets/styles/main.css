@@ -466,6 +466,15 @@ body {
     padding: 0.4rem 0rem;
 }
 
+.project-section .check-btn{
+    font-size: 0.9rem;
+    background: var(--color-variant-95green);
+    margin-top: 1.6rem;
+    padding: 0.4rem 1.2rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    color: var(--color-variant-dark);
+}
 
 .proposal-section {
     width: 100%;
