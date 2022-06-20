@@ -1,0 +1,44 @@
+.header .large-screen {
+    border-bottom: 1px solid var(--color-variant-95green);
+}
+
+.main-content {
+    max-width: 800px;
+    margin: auto;
+    min-height: 100vh;
+    padding: 1.6rem 3.2rem 3.2rem 3.2rem;
+    border-bottom: 1px solid var(--color-variant-95green);
+}
+
+.main-content .about-title {
+    font-size: 3.0rem;
+    color: var(--color-variant-orange);
+    text-decoration: underline;
+}
+
+.main-content .default-text {
+    color: var(--color-variant-light-green);
+    font-weight: 300;
+}
+
+.main-content .heading-3 {
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: var(--color-variant-white);
+}
+
+.main-content .hire-me {
+    width: max-content;
+    background: var(--color-variant-orange);
+    color: var(--color-variant-dark);
+    padding: 0.4rem 1.2rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 700px) {
+    .main-content {
+        width: 80%;
+    }
+}
