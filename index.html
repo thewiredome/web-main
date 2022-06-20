@@ -5,619 +5,281 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="WireDome sets the latest trends in web design, 
+    ui design, ux, modern templates, portfolios, cms, wordpress, webflow, squarespace, illustrations, css, html and javascript">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wiredome.com">
+    <meta property="og:title" content="WireDome">
+    <meta property="og:site_name" content="WireDome">
+    <meta property="og:description" content="WireDome Website is All About Website Design">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
-    <link rel="shortcut icon" href="assets/favicon/favicon96.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/favicon/favicon96.png" type="image/x-icon">
     <link
-        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/styles/main.css">
-    <title>WireDome - Design Better, Code Like a Pro</title>
+    <title>WireDome - Creative Design That Fits The Modern Trends</title>
 </head>
 
 <body>
-    <div class="popup-modal display-none">
-        <div class="modal-content flex">
-            <i class="bi-x-circle-fill close-btn"></i>
-            <span class="modal-top">
-                Hi, I'm Victor
-            </span>
-            <span class='description'>
-                This is my first website built from scratch. I'm
-                currently working on another solo project that involves
-                building an ecommerce website from scratch. I should
-                be done within the next 2 to 4 days.
-            </span>
-            <em>
-                Any questions, click the hire me button so that we can chat
-            </em>
-            <div class='modal-footer flex'>
-                <span class='close-btn'>Close</span>
-                <a class='hire-btn' href="https://twitter.com/thewiredome" target="_blank">Hire Me</a>
-            </div>
-        </div>
-    </div>
-    <div class="header flex">
-        <span class="menu-icon display-none">
-            <i class="bi-list"></i>
-            <div class="sidebar-menu flex display-none">
-                <span class="close-sidebar" title="close">X</span>
-                <a class="top" href="https://twitter.com/thewiredome" target="_blank">
-                    Hire Me
+    <div class="wrapper">
+        <div class="header">
+            <div class="small-screen flex">
+                <a class="logo-container flex-center link" href="https://wiredome.com">
+                    <svg width="53" height="35" class="logo-icon" viewBox="0 0 53 35" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M37.2841 0.555465C36.8408 0.559408 36.3979 0.585791 35.9566 0.634571C35.5137 0.683392 35.0729 0.754676 34.6355 0.848284C34.1994 0.941278 33.7672 1.0564 33.34 1.19318C32.9118 1.33028 32.489 1.48905 32.0731 1.66908V16.1262L37.8968 4.60447L42.2654 7.48482L32.0731 27.6541V33.7109C32.489 33.8909 32.9118 34.0498 33.34 34.1869C33.7672 34.3247 34.1994 34.4407 34.6355 34.5347C35.0719 34.6282 35.5117 34.6995 35.9535 34.7484C36.3958 34.7973 36.8398 34.8237 37.2841 34.8275C37.4757 34.8258 37.6671 34.8199 37.8584 34.8098C38.05 34.8022 38.2415 34.7904 38.4327 34.7744C38.6234 34.7583 38.8139 34.738 39.0039 34.7135C39.1948 34.6882 39.3852 34.6587 39.5751 34.625C39.764 34.5915 39.9524 34.554 40.1401 34.5122C40.3281 34.4705 40.5155 34.4246 40.702 34.3747C40.889 34.3248 41.0751 34.2709 41.2603 34.2129C41.4443 34.1549 41.6273 34.0929 41.8092 34.0269C41.9923 33.9606 42.1743 33.8903 42.3551 33.8161C42.535 33.7416 42.7138 33.6633 42.8911 33.5811C43.0691 33.4995 43.2458 33.414 43.4209 33.3248C43.5958 33.2351 43.7691 33.1416 43.9408 33.0443C44.1117 32.9472 44.2809 32.8465 44.4484 32.742C44.6171 32.6378 44.7841 32.53 44.9492 32.4185C45.1139 32.3071 45.2768 32.1921 45.4377 32.0736C45.5982 31.954 45.7567 31.831 45.9131 31.7045C46.0694 31.5788 46.2237 31.4497 46.3757 31.3172C46.528 31.1843 46.678 31.0481 46.8258 30.9086C46.9739 30.7695 47.1196 30.6272 47.263 30.4817C47.4058 30.3362 47.5463 30.1876 47.6841 30.0359C47.823 29.8842 47.9592 29.7295 48.0929 29.5718C48.2252 29.4141 48.355 29.2534 48.4819 29.09C48.6092 28.927 48.7338 28.7612 48.8555 28.5928C48.9776 28.4236 49.0967 28.2518 49.213 28.0774C49.3287 27.9039 49.4416 27.7279 49.5515 27.5495C49.662 27.3698 49.7694 27.1877 49.8738 27.0033C49.978 26.8203 50.0791 26.6351 50.177 26.4477C50.2749 26.2596 50.3695 26.0694 50.461 25.8773C50.5526 25.6849 50.6409 25.4906 50.726 25.2944C50.8112 25.0979 50.8931 24.8995 50.9717 24.6994C51.0496 24.4997 51.1241 24.2983 51.1952 24.0953C51.2667 23.8924 51.335 23.6879 51.3997 23.482C51.4649 23.2759 51.5266 23.0683 51.5849 22.8595C51.6427 22.6512 51.6971 22.4416 51.7479 22.2309C51.7982 22.0193 51.845 21.8068 51.8881 21.5932C51.932 21.3805 51.9723 21.1669 52.0091 20.9524C52.0456 20.7375 52.0786 20.5218 52.1079 20.3055C52.1371 20.0894 52.1626 19.8728 52.1844 19.6556C52.2066 19.4384 52.2252 19.2206 52.24 19.0026C52.2561 18.7842 52.2684 18.5655 52.2771 18.3466C52.2848 18.128 52.289 17.9093 52.2894 17.6906C52.289 17.0493 52.2571 16.4085 52.1938 15.7713C52.1312 15.1342 52.0374 14.5016 51.9128 13.8765C51.7877 13.2516 51.6321 12.6353 51.4466 12.0304C51.262 11.4252 51.0479 10.8323 50.8052 10.2545C50.5617 9.67714 50.29 9.1158 49.9915 8.5732C49.693 8.03 49.368 7.50635 49.0182 7.00477C48.6685 6.50422 48.2946 6.02647 47.8981 5.57375C47.5014 5.12009 47.0827 4.69222 46.644 4.29219C46.2052 3.89294 45.7471 3.52216 45.2719 3.18155C44.7962 2.84001 44.304 2.52927 43.7977 2.25084C43.2932 1.97284 42.7754 1.72737 42.2468 1.51555C41.7166 1.30414 41.1765 1.12689 40.629 0.984692C40.0827 0.841557 39.5297 0.733563 38.9728 0.66115C38.4144 0.589558 37.853 0.553895 37.2911 0.554294L37.2841 0.555465Z"
+                            fill="#fff" />
+                        <path
+                            d="M4.99403 0L0 0.823947L9.56038 22.8208L13.4599 24.4136L20.697 15.5434L26.4186 31.5324L30.5319 30.7055L23.7605 11.7873L19.8611 10.1945L13.0514 18.5398L4.99403 0Z"
+                            fill="#FFA500" />
+                    </svg>
+                    <span class="website-name">WireDome</span>
                 </a>
-                <div class="middle flex">
-                    <div class="main-nav">
-                        <a class="nav-links" href="https://wiredome.com">Projects</a>
-                    </div>
-                    <div class="main-nav">
-                        <a class="nav-links" href="https://wiredome.com">Web Design</a>
-                    </div>
-                    <div class="main-nav">
-                        <a class="nav-links" href="https://wiredome.com">Programming</a>
-                    </div>
-                    <div class="main-nav">
-                        <a class="nav-links" href="https://wiredome.com">Blog</a>
-                    </div>
-                    <div class="main-nav">
-                        <a class="nav-links" href="https://wiredome.com">Contact</a>
+                <div class="menu-container flex-center">
+                    <i class="bi-list icon-1"></i>
+                    <div class="menu-content flex display-none">
+                        <div class="close-contact-container flex">
+                            <i class="bi-x close-menu font-13 flex-center" title="close"></i>
+                            <a href="mailto:thewiredome@gmail.com?" class="contact-me link">Contact Me</a>
+                        </div>
+                        <div class="nav-links-container flex">
+                            <a href="https://wiredome.com" class="link">Projects</a>
+                            <a href="https://wiredome.com" class="link">Design</a>
+                            <a href="https://wiredome.com" class="link">Services</a>
+                            <a href="https://wiredome.com/about" class="link">About Me</a>
+                        </div>
+                        <div class="cta-btns flex">
+                            <a href="mailto:thewiredome@gmail.com?subject=I Have a Project / Work to Discuss"
+                                class="hire-me link">Hire Me</a>
+                                <a href="mailto:thewiredome@gmail.com?" class="how-btn link">Let's Talk</a>
+                        </div>
+                        <div class="work-status flex">
+                            <i class="bi-circle-fill"></i>
+                            <span class="availability">Available for Hire / Freelance</span>
+                        </div>
                     </div>
                 </div>
-                <div class="bottom flex">
-                    <span class="s-theme">
-                        <i class="bi-moon-stars-fill"></i>
+            </div>
+            <div class="large-screen display-none">
+                <a class="logo-container flex-center link" href="https://wiredome.com">
+                    <svg width="53" height="35" class="logo-icon" viewBox="0 0 53 35" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M37.2841 0.555465C36.8408 0.559408 36.3979 0.585791 35.9566 0.634571C35.5137 0.683392 35.0729 0.754676 34.6355 0.848284C34.1994 0.941278 33.7672 1.0564 33.34 1.19318C32.9118 1.33028 32.489 1.48905 32.0731 1.66908V16.1262L37.8968 4.60447L42.2654 7.48482L32.0731 27.6541V33.7109C32.489 33.8909 32.9118 34.0498 33.34 34.1869C33.7672 34.3247 34.1994 34.4407 34.6355 34.5347C35.0719 34.6282 35.5117 34.6995 35.9535 34.7484C36.3958 34.7973 36.8398 34.8237 37.2841 34.8275C37.4757 34.8258 37.6671 34.8199 37.8584 34.8098C38.05 34.8022 38.2415 34.7904 38.4327 34.7744C38.6234 34.7583 38.8139 34.738 39.0039 34.7135C39.1948 34.6882 39.3852 34.6587 39.5751 34.625C39.764 34.5915 39.9524 34.554 40.1401 34.5122C40.3281 34.4705 40.5155 34.4246 40.702 34.3747C40.889 34.3248 41.0751 34.2709 41.2603 34.2129C41.4443 34.1549 41.6273 34.0929 41.8092 34.0269C41.9923 33.9606 42.1743 33.8903 42.3551 33.8161C42.535 33.7416 42.7138 33.6633 42.8911 33.5811C43.0691 33.4995 43.2458 33.414 43.4209 33.3248C43.5958 33.2351 43.7691 33.1416 43.9408 33.0443C44.1117 32.9472 44.2809 32.8465 44.4484 32.742C44.6171 32.6378 44.7841 32.53 44.9492 32.4185C45.1139 32.3071 45.2768 32.1921 45.4377 32.0736C45.5982 31.954 45.7567 31.831 45.9131 31.7045C46.0694 31.5788 46.2237 31.4497 46.3757 31.3172C46.528 31.1843 46.678 31.0481 46.8258 30.9086C46.9739 30.7695 47.1196 30.6272 47.263 30.4817C47.4058 30.3362 47.5463 30.1876 47.6841 30.0359C47.823 29.8842 47.9592 29.7295 48.0929 29.5718C48.2252 29.4141 48.355 29.2534 48.4819 29.09C48.6092 28.927 48.7338 28.7612 48.8555 28.5928C48.9776 28.4236 49.0967 28.2518 49.213 28.0774C49.3287 27.9039 49.4416 27.7279 49.5515 27.5495C49.662 27.3698 49.7694 27.1877 49.8738 27.0033C49.978 26.8203 50.0791 26.6351 50.177 26.4477C50.2749 26.2596 50.3695 26.0694 50.461 25.8773C50.5526 25.6849 50.6409 25.4906 50.726 25.2944C50.8112 25.0979 50.8931 24.8995 50.9717 24.6994C51.0496 24.4997 51.1241 24.2983 51.1952 24.0953C51.2667 23.8924 51.335 23.6879 51.3997 23.482C51.4649 23.2759 51.5266 23.0683 51.5849 22.8595C51.6427 22.6512 51.6971 22.4416 51.7479 22.2309C51.7982 22.0193 51.845 21.8068 51.8881 21.5932C51.932 21.3805 51.9723 21.1669 52.0091 20.9524C52.0456 20.7375 52.0786 20.5218 52.1079 20.3055C52.1371 20.0894 52.1626 19.8728 52.1844 19.6556C52.2066 19.4384 52.2252 19.2206 52.24 19.0026C52.2561 18.7842 52.2684 18.5655 52.2771 18.3466C52.2848 18.128 52.289 17.9093 52.2894 17.6906C52.289 17.0493 52.2571 16.4085 52.1938 15.7713C52.1312 15.1342 52.0374 14.5016 51.9128 13.8765C51.7877 13.2516 51.6321 12.6353 51.4466 12.0304C51.262 11.4252 51.0479 10.8323 50.8052 10.2545C50.5617 9.67714 50.29 9.1158 49.9915 8.5732C49.693 8.03 49.368 7.50635 49.0182 7.00477C48.6685 6.50422 48.2946 6.02647 47.8981 5.57375C47.5014 5.12009 47.0827 4.69222 46.644 4.29219C46.2052 3.89294 45.7471 3.52216 45.2719 3.18155C44.7962 2.84001 44.304 2.52927 43.7977 2.25084C43.2932 1.97284 42.7754 1.72737 42.2468 1.51555C41.7166 1.30414 41.1765 1.12689 40.629 0.984692C40.0827 0.841557 39.5297 0.733563 38.9728 0.66115C38.4144 0.589558 37.853 0.553895 37.2911 0.554294L37.2841 0.555465Z"
+                            fill="#fff" />
+                        <path
+                            d="M4.99403 0L0 0.823947L9.56038 22.8208L13.4599 24.4136L20.697 15.5434L26.4186 31.5324L30.5319 30.7055L23.7605 11.7873L19.8611 10.1945L13.0514 18.5398L4.99403 0Z"
+                            fill="#FFA500" />
+                    </svg>
+                    <span class="website-name">WireDome</span>
+                </a>
+                <div class="nav-links-container flex">
+                    <a href="#projects-done" class="link">Projects</a>
+                    <a href="#projects-done" class="link">Design</a>
+                    <a href="#skills" class="link">Services</a>
+                    <a href="about.html" class="link">About Me</a>
+                </div>
+                <a href="mailto:thewiredome@gmail.com?" class="contact-me link">Contact Me</a>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="landing-container flex">
+                <div class="landing-text flex">
+                    <div class="intro-main">
+                        I design modern & creative websites that inspire users.
+                    </div>
+                    <span class="describe-text">
+                        I'm a UI and UX website expert who works with small to medium
+                        business startups to help bring their creative ideas to life. If your
+                        looking for a freelance designer to join your team, let's talk.
                     </span>
-                    <input type="search" name="search" id="search" placeholder="Search...">
-                </div>
-            </div>
-        </span>
-        <div class="left-pos flex">
-            <span class="s-name"><a href="https://wiredome.com">WireDome</a></span>
-        </div>
-        <div class="middle-pos flex">
-            <div class="main-nav">
-                <a class="nav-links" href="https://wiredome.com">Projects</a>
-            </div>
-            <div class="main-nav">
-                <a class="nav-links" href="https://wiredome.com">Web Design</a>
-            </div>
-            <div class="main-nav">
-                <a class="nav-links" href="https://wiredome.com">Programming</a>
-            </div>
-            <div class="main-nav">
-                <a class="nav-links" href="https://wiredome.com">Blog</a>
-            </div>
-            <div class="main-nav">
-                <a class="nav-links" href="https://wiredome.com">Contact</a>
-            </div>
-        </div>
-        <div class="right-pos flex">
-            <span class="s-theme">
-                <i class="bi-moon-stars-fill"></i>
-            </span>
-            <input type="search" name="search" id="search" placeholder="Search...">
-            <button class="portfolio-btn btn-primary">Check Portfolio</button>
-        </div>
-    </div>
-    <div class="content-section">
-        <div class="first-section">
-            <div class="featured-content1">
-                <div class="img"></div>
-                <div class="featured-text-container flex">
-                    <div class="top flex">
-                        <span class="category">Python</span>
-                        <span class="divider">|</span>
-                        <span class="read-time">10 min read</span>
-                        <span class="divider">|</span>
-                        <span class="comments"><i class="bi-chat-fill"></i></span>
-                        <span class="divider">|</span>
-                        <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
+                    <div class="cta-btns flex">
+                        <a href="mailto:thewiredome@gmail.com?subject=I Have a Project / Work to Discuss" class="hire-me link">Hire Me</a>
+                        <a href="mailto:thewiredome@gmail.com?" class="how-btn link">Let's Talk</a>
                     </div>
-                    <div class="middle flex">
-                        <span class="title">
-                            Lorem IpsuM is a Dummy Text Used By Printing Industries
-                        </span>
-                        <span class="summary">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Minus iure numquam voluptatem error sed, delectus maiores
-                            ducimus possimus fuga expedita maxime architecto recusandae,
-                            soluta nulla officia, magni animi atque odit.
-                        </span>
-                    </div>
-                    <div class="bottom flex">
-                        <span class="read-more">Read More</span>
-                        <span class="date">May 12, 2022</span>
+                    <div class="work-status flex">
+                        <i class="bi-circle-fill"></i>
+                        <span class="availability">Available for Hire / Freelance</span>
                     </div>
                 </div>
+                <div class="landing-img display-none">
+                    <img src="assets/img/uploads/landing-img.png" alt="web designer">
+                </div>
             </div>
-            <div class="featured-container flex">
-                <div class="featured-content2">
-                    <div class="img"></div>
-                    <div class="featured-text-container flex">
-                        <div class="top flex">
-                            <span class="category">Python</span>
-                            <span class="divider">|</span>
-                            <span class="read-time">10 min read</span>
-                            <span class="divider">|</span>
-                            <span class="comments"><i class="bi-chat-fill"></i></span>
-                            <span class="divider">|</span>
-                            <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
+            <div class="skill-section flex">
+                <div class="skill-info-container flex">
+                    <div id="skills" class="skill-text-container flex">
+                        <span class="importance">HOW I CAN BE PART OF YOUR BUSINESS</span>
+                        <span class="normal-text font-09">
+                            Design is a process and for me, I start by making a wireframe/sketch of
+                            the product that I'm designing, then from there I go on to making the
+                            prototype of the final product. All my designs go through a thorough research
+                            process to ensure that they meet the current trends in web design.
+                        </span>
+                        <span class="title-2-text">These are The Skills That I have Acquired</span>
+                        <a class="view-all link flex display-none" href="#">
+                            <i class="bi-chevron-right icon-1"></i>
+                            <span>VIEW ALL</span>
+                        </a>
+                    </div>
+                    <div class="img-container flex-center">
+                        <img src="/assets/img/uploads/login-signin-mockup-2.png" alt="skills photo">
+                    </div>
+                </div>
+                <div class="slide-container flex">
+                    <div class="slide-content-container flex">
+                        <div class="img-container flex-center">
+                            <img src="/assets/img/uploads/ux.png" alt="ux image">
                         </div>
-                        <div class="middle flex">
-                            <span class="title">
-                                Lorem IpsuM is a Dummy Text Used By Printing Industries
-                            </span>
-                            <span class="summary display-none">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Minus iure numquam voluptatem error sed, delectus maiores
-                                ducimus possimus fuga expedita maxime architecto recusandae,
-                                soluta nulla officia, magni animi atque odit.
+                        <div class="skill-detail flex">
+                            <span class="skill-title">UX/UI Design</span>
+                            <span class="normal-text">
+                                Not only will I design your user interface to be responsive on all devices,
+                                I will also design your website based on the current web design trends and standards.
                             </span>
                         </div>
-                        <div class="bottom flex">
-                            <span class="read-more">Read More</span>
-                            <span class="date">May 12, 2022</span>
-                        </div>
                     </div>
-                </div>
-                <div class="featured-content3">
-                    <div class="img"></div>
-                    <div class="featured-text-container flex">
-                        <div class="top flex">
-                            <span class="category">Python</span>
-                            <span class="divider">|</span>
-                            <span class="read-time">10 min read</span>
-                            <span class="divider">|</span>
-                            <span class="comments"><i class="bi-chat-fill"></i></span>
-                            <span class="divider">|</span>
-                            <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                        </div>
-                        <div class="middle flex">
-                            <span class="title">
-                                Lorem IpsuM is a Dummy Text Used By Printing Industries
-                            </span>
-                            <span class="summary display-none">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Minus iure numquam voluptatem error sed, delectus maiores
-                                ducimus possimus fuga expedita maxime architecto recusandae,
-                                soluta nulla officia, magni animi atque odit.
-                            </span>
-                        </div>
-                        <div class="bottom flex">
-                            <span class="read-more">Read More</span>
-                            <span class="date">May 12, 2022</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="second-section flex">
-            <span class="slide-container-title">Lorem Ipsum Is A Dummy Text</span>
-            <div class="slide-container flex">
-                <div class="slide-content-container flex">
-                    <div class="img">
-                    </div>
-                    <div class="content-bottom flex">
-                        <div class="top flex">
-                            <span class="category">Python</span>
-                            <span class="divider">|</span>
-                            <span class="read-time">10 min read</span>
-                            <span class="divider">|</span>
-                            <span class="comments"><i class="bi-chat-fill"></i></span>
-                            <span class="divider">|</span>
-                            <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                        </div>
-                        <span class="title">
-                            Lorem IpsuM is a Dummy Text Used By Printing Industries
-                        </span>
-                    </div>
-                </div>
-                <div class="slide-content-container flex">
-                    <div class="img">
-                    </div>
-                    <div class="content-bottom flex">
-                        <div class="top flex">
-                            <span class="category">Python</span>
-                            <span class="divider">|</span>
-                            <span class="read-time">10 min read</span>
-                            <span class="divider">|</span>
-                            <span class="comments"><i class="bi-chat-fill"></i></span>
-                            <span class="divider">|</span>
-                            <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                        </div>
-                        <span class="title">
-                            Lorem IpsuM is a Dummy Text Used By Printing Industries
-                        </span>
-                    </div>
-                </div>
-                <div class="slide-content-container flex">
-                    <div class="img">
-                    </div>
-                    <div class="content-bottom flex">
-                        <div class="top flex">
-                            <span class="category">Python</span>
-                            <span class="divider">|</span>
-                            <span class="read-time">10 min read</span>
-                            <span class="divider">|</span>
-                            <span class="comments"><i class="bi-chat-fill"></i></span>
-                            <span class="divider">|</span>
-                            <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                        </div>
-                        <span class="title">
-                            Lorem IpsuM is a Dummy Text Used By Printing Industries
-                        </span>
-                    </div>
-                </div>
-                <div class="slide-content-container flex">
-                    <div class="img">
-                    </div>
-                    <div class="content-bottom flex">
-                        <div class="top flex">
-                            <span class="category">Python</span>
-                            <span class="divider">|</span>
-                            <span class="read-time">10 min read</span>
-                            <span class="divider">|</span>
-                            <span class="comments"><i class="bi-chat-fill"></i></span>
-                            <span class="divider">|</span>
-                            <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                        </div>
-                        <span class="title">
-                            Lorem IpsuM is a Dummy Text Used By Printing Industries
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="third-section flex">
-            <div class="left-section flex">
-                <div class="row-section flex">
-                    <div class="content-container flex">
+                    <div class="slide-content-container flex">
                         <div class="img-container">
+                            <img src="/assets/img/uploads/cms.png" alt="cms image">
                         </div>
-                        <div class="content-details flex">
-                            <div class="content-top-container flex">
-                                <span class="content-category">Blog</span>
-                                <span class="divider">|</span>
-                                <span class="read-time">4 min read</span>
-                                <span class="divider">|</span>
-                                <span class="comments"><i class="bi-chat-fill"></i></span>
-                                <span class="divider">|</span>
-                                <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                            </div>
-                            <span class="title">
-                                Success in life is not for those who run fast but for those who keep running
-                            </span>
-                            <span class="summary">
-                                Erem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Est quaerat minus ut molestiae laboriosam enim in officia
-                                deserunt voluptate voluptates, itaque tenetur laborum soluta
-                                ducimus porro obcaecati quis voluptatibus hic!
+                        <div class="skill-detail flex">
+                            <span class="skill-title">Content Management Software</span>
+                            <span class="normal-text">
+                                Whether it is wordpress or webflow your favorite CMS, I'll help you bring those
+                                creative ideas to life.
                             </span>
                         </div>
                     </div>
-                    <div class="content-container flex">
+                    <div class="slide-content-container flex">
                         <div class="img-container">
+                            <img src="/assets/img/uploads/illustration.png" alt="illustration image">
                         </div>
-                        <div class="content-details flex">
-                            <div class="content-top-container flex">
-                                <span class="content-category">Blog</span>
-                                <span class="divider">|</span>
-                                <span class="read-time">4 min read</span>
-                                <span class="divider">|</span>
-                                <span class="comments"><i class="bi-chat-fill"></i></span>
-                                <span class="divider">|</span>
-                                <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                            </div>
-                            <span class="title">
-                                Success in life is not for those who run fast but for those who keep running
-                            </span>
-                            <span class="summary">
-                                Erem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Est quaerat minus ut molestiae laboriosam enim in officia
-                                deserunt voluptate voluptates, itaque tenetur laborum soluta
-                                ducimus porro obcaecati quis voluptatibus hic!
+                        <div class="skill-detail flex">
+                            <span class="skill-title">Website Illustration</span>
+                            <span class="normal-text">
+                                Instead of taking screenshot to showcase your project, I'll help you design a
+                                unique illustration that blends in with your target audience taste.
                             </span>
                         </div>
                     </div>
-                </div>
-                <div class="row-section flex">
-                    <div class="content-container flex">
+                    <div class="slide-content-container flex">
                         <div class="img-container">
+                            <img src="/assets/img/uploads/prototype.png" alt="prototype image">
                         </div>
-                        <div class="content-details flex">
-                            <div class="content-top-container flex">
-                                <span class="content-category">Blog</span>
-                                <span class="divider">|</span>
-                                <span class="read-time">4 min read</span>
-                                <span class="divider">|</span>
-                                <span class="comments"><i class="bi-chat-fill"></i></span>
-                                <span class="divider">|</span>
-                                <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                            </div>
-                            <span class="title">
-                                Success in life is not for those who run fast but for those who keep running
-                            </span>
-                            <span class="summary">
-                                Erem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Est quaerat minus ut molestiae laboriosam enim in officia
-                                deserunt voluptate voluptates, itaque tenetur laborum soluta
-                                ducimus porro obcaecati quis voluptatibus hic!
-                            </span>
-                        </div>
-                    </div>
-                    <div class="content-container flex">
-                        <div class="img-container">
-                        </div>
-                        <div class="content-details flex">
-                            <div class="content-top-container flex">
-                                <span class="content-category">Blog</span>
-                                <span class="divider">|</span>
-                                <span class="read-time">4 min read</span>
-                                <span class="divider">|</span>
-                                <span class="comments"><i class="bi-chat-fill"></i></span>
-                                <span class="divider">|</span>
-                                <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                            </div>
-                            <span class="title">
-                                Success in life is not for those who run fast but for those who keep running
-                            </span>
-                            <span class="summary">
-                                Erem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Est quaerat minus ut molestiae laboriosam enim in officia
-                                deserunt voluptate voluptates, itaque tenetur laborum soluta
-                                ducimus porro obcaecati quis voluptatibus hic!
+                        <div class="skill-detail flex">
+                            <span class="skill-title">Mobile / Website Prototype</span>
+                            <span class="normal-text">
+                                Not sure where to start on your next project? I can design a prototype using popular
+                                tools like figma to bring your ideal to reality.
                             </span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="right-section flex">
-                <div class="sidebar-content-container">
-                    <span class="sidebar-content-title">Latest Posts</span>
-                    <div class="contents-container flex">
-                        <div class="posts-container flex">
-                            <span class="post-title">Do You Have Something To Say or Not Mr Pumpkins</span>
-                            <div class="post-bottom-container">
-                                <span class="content-category">Blog</span>
-                                <span class="divider">|</span>
-                                <span class="read-time">4 min read</span>
-                                <span class="divider">|</span>
-                                <span class="comments"><i class="bi-chat-fill"></i></span>
-                                <span class="divider">|</span>
-                                <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                            </div>
+            <div class="project-section flex-center" id="projects-done">
+                <span class="title-text">Latest Projects</span>
+                <span class="normal-text">
+                    Below are my recent projects. Though the design process for some of these projects
+                    were challenging at first, the results of the final project was rewarding.
+                    <em>All my designs are built completely with simplicity and creativity but more
+                        importantly with the user in mind.
+                    </em>
+                </span>
+                <div class="slide-container flex">
+                    <div class="slide-content-container">
+                        <div class="img-container flex-center">
+                            <img src="/assets/img/projects/dashboard-1.png" alt="dashboard web mockup">
                         </div>
-                        <span class="border-bottom"></span>
-                        <div class="posts-container flex">
-                            <span class="post-title">Do You Have Something To Say or Not Mr Pumpkins</span>
-                            <div class="post-bottom-container">
-                                <span class="content-category">Blog</span>
-                                <span class="divider">|</span>
-                                <span class="read-time">4 min read</span>
-                                <span class="divider">|</span>
-                                <span class="comments"><i class="bi-chat-fill"></i></span>
-                                <span class="divider">|</span>
-                                <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                            </div>
-                        </div>
-                        <span class="border-bottom"></span>
-                        <div class="posts-container flex">
-                            <span class="post-title">Do You Have Something To Say or Not Mr Pumpkins</span>
-                            <div class="post-bottom-container">
-                                <span class="content-category">Blog</span>
-                                <span class="divider">|</span>
-                                <span class="read-time">4 min read</span>
-                                <span class="divider">|</span>
-                                <span class="comments"><i class="bi-chat-fill"></i></span>
-                                <span class="divider">|</span>
-                                <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                            </div>
-                        </div>
-                        <span class="border-bottom"></span>
-                        <div class="posts-container flex">
-                            <span class="post-title">Do You Have Something To Say or Not Mr Pumpkins</span>
-                            <div class="post-bottom-container">
-                                <span class="content-category">Blog</span>
-                                <span class="divider">|</span>
-                                <span class="read-time">4 min read</span>
-                                <span class="divider">|</span>
-                                <span class="comments"><i class="bi-chat-fill"></i></span>
-                                <span class="divider">|</span>
-                                <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                            </div>
+                        <div class="p-detail-container flex">
+                            <span class="project-title">Dashboard Mockup Design</span>
+                            <em class="project-owner">by wiredome</em>
+                            <span class="project-gadgets">Best For Desktop Device</span>
+                            <a href="#" target="_blank" class="link">View on Dribbble</a>
                         </div>
                     </div>
-                </div>
-                <div class="sidebar-content-container">
-                    <span class="sidebar-content-title">Popular Posts</span>
-                    <div class="contents-container flex">
-                        <div class="posts-container flex">
-                            <span class="post-title">Sorry Mr Pumpkin These are Just Dummy Texts</span>
-                            <div class="post-bottom-container">
-                                <span class="content-category">Blog</span>
-                                <span class="divider">|</span>
-                                <span class="read-time">4 min read</span>
-                                <span class="divider">|</span>
-                                <span class="comments"><i class="bi-chat-fill"></i></span>
-                                <span class="divider">|</span>
-                                <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                            </div>
+                    <div class="slide-content-container">
+                        <div class="img-container flex-center">
+                            <img src="/assets/img/projects/login-app-1.png" alt="login mockup">
                         </div>
-                        <span class="border-bottom"></span>
-                        <div class="posts-container flex">
-                            <span class="post-title">Sorry Mr Pumpkin These are Just Dummy Texts</span>
-                            <div class="post-bottom-container">
-                                <span class="content-category">Blog</span>
-                                <span class="divider">|</span>
-                                <span class="read-time">4 min read</span>
-                                <span class="divider">|</span>
-                                <span class="comments"><i class="bi-chat-fill"></i></span>
-                                <span class="divider">|</span>
-                                <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                            </div>
+                        <div class="p-detail-container flex">
+                            <span class="project-title">Login App Mockup Design</span>
+                            <em class="project-owner">by wiredome</em>
+                            <span class="project-gadgets">Best For Mobile/Tablet Device</span>
+                            <a href="#" target="_blank" class="link">View on Dribbble</a>
                         </div>
-                        <span class="border-bottom"></span>
-                        <div class="posts-container flex">
-                            <span class="post-title">Sorry Mr Pumpkin These are Just Dummy Texts</span>
-                            <div class="post-bottom-container">
-                                <span class="content-category">Blog</span>
-                                <span class="divider">|</span>
-                                <span class="read-time">4 min read</span>
-                                <span class="divider">|</span>
-                                <span class="comments"><i class="bi-chat-fill"></i></span>
-                                <span class="divider">|</span>
-                                <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                            </div>
+                    </div>
+                    <div class="slide-content-container">
+                        <div class="img-container flex-center">
+                            <img src="/assets/img/projects/twitter-app-1.png" alt="twitter app mockup">
                         </div>
-                        <span class="border-bottom"></span>
-                        <div class="posts-container flex">
-                            <span class="post-title">Sorry Mr Pumpkin These are Just Dummy Texts</span>
-                            <div class="post-bottom-container">
-                                <span class="content-category">Blog</span>
-                                <span class="divider">|</span>
-                                <span class="read-time">4 min read</span>
-                                <span class="divider font-size">|</span>
-                                <span class="comments"><i class="bi-chat-fill"></i></span>
-                                <span class="divider">|</span>
-                                <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                            </div>
+                        <div class="p-detail-container flex">
+                            <span class="project-title">Twitter App Mockup Design</span>
+                            <em class="project-owner">by wiredome</em>
+                            <span class="project-gadgets">Best For Mobile/Tablet Device</span>
+                            <a href="#" target="_blank" class="link">View on Dribbble</a>
+                        </div>
+                    </div>
+                    <div class="slide-content-container">
+                        <div class="img-container flex-center">
+                            <img src="/assets/img/projects/login-signup.png" alt="login signin mockup">
+                        </div>
+                        <div class="p-detail-container flex">
+                            <span class="project-title">Login / Signin Mockup Design</span>
+                            <em class="project-owner">by wiredome</em>
+                            <span class="project-gadgets">Best For Mobile/Tablet Device</span>
+                            <a href="#" target="_blank" class="link">View on Dribbble</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="fourth-section flex">
-            <div class="slide-container-title flex">
-                <span class="slide-title">Best Designers By Country</span>
-                <a href="https://wiredome.com" class="link">See More</a>
-            </div>
-            <div class="slide-container flex">
-                <div class="slide-content-container flex">
-                    <div class="img">
-                    </div>
-                    <div class="content-bottom flex">
-                        <div class="content-top-container flex">
-                            <span class="content-category">Blog</span>
-                            <span class="divider">|</span>
-                            <span class="read-time">4 min read</span>
-                            <span class="divider">|</span>
-                            <span class="comments"><i class="bi-chat-fill"></i></span>
-                            <span class="divider">|</span>
-                            <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                        </div>
-                        <span class="content-title">Nothing More To Add Except a Fullstop</span>
-                    </div>
-                </div>
-                <div class="slide-content-container flex">
-                    <div class="img">
-                    </div>
-                    <div class="content-bottom flex">
-                        <div class="content-top-container flex">
-                            <span class="content-category">Blog</span>
-                            <span class="divider">|</span>
-                            <span class="read-time">4 min read</span>
-                            <span class="divider">|</span>
-                            <span class="comments"><i class="bi-chat-fill"></i></span>
-                            <span class="divider">|</span>
-                            <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                        </div>
-                        <span class="content-title">Nothing More To Add Except a Fullstop</span>
-                    </div>
-                </div>
-                <div class="slide-content-container flex">
-                    <div class="img">
-                    </div>
-                    <div class="content-bottom flex">
-                        <div class="content-top-container flex">
-                            <span class="content-category">Blog</span>
-                            <span class="divider">|</span>
-                            <span class="read-time">4 min read</span>
-                            <span class="divider">|</span>
-                            <span class="comments"><i class="bi-chat-fill"></i></span>
-                            <span class="divider">|</span>
-                            <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                        </div>
-                        <span class="content-title">Nothing More To Add Except a Fullstop</span>
-                    </div>
-                </div>
-                <div class="slide-content-container flex">
-                    <div class="img">
-                    </div>
-                    <div class="content-bottom flex">
-                        <div class="content-top-container flex">
-                            <span class="content-category">Blog</span>
-                            <span class="divider">|</span>
-                            <span class="read-time">4 min read</span>
-                            <span class="divider">|</span>
-                            <span class="comments"><i class="bi-chat-fill"></i></span>
-                            <span class="divider">|</span>
-                            <span class="likes"><i class="bi-hand-thumbs-up-fill"></i></span>
-                        </div>
-                        <span class="content-title">Nothing More To Add Except a Fullstop</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="fifth-section">
-            <div class="hire-me-container flex">
-                <div class="detail flex">
-                    <span class="name-section">Hi, I'm Victor</span>
-                    <span class="speciality">Web Designer</span>
-                    <span class="description">
-                        I am a full-time, work from home junior web designer who
-                        loves programming. If you are in search of a creative web
-                        developer, who can design any kind of website or landing
-                        page from scratch, in either creative or modern way, you're
-                        in the right place. Need me to be part of your web design team?
+            <div class="proposal-section">
+                <div class="proposal-content flex-center">
+                    <div class="intro-main font-22">Have Any Project In Mind?</div>
+                    <span class="normal-text">
+                        Whether you're a beginner in web design or just looking for a website that aligns with
+                        your branding, or thinking of showcasing your skills for your next client, this is the place to
+                        start. If you're looking for a website with a
+                        nice visual and at the same time modern, let's talk about your project in more detail.
                     </span>
-                    <em>Get in touch to discuss your needs</em>
-                    <a class="hire-btn" href="https://twitter.com/thewiredome" target="_blank"> Hire Me</a>
-                </div>
-                <div class="more-detail flex">
-                    <span class="title">What I Do</span>
-                    <ul>
-                        <li>User Interface Design</li>
-                        <li>UX Research For Better User Experience</li>
-                        <li>Wireframing</li>
-                        <li>Front End Web Designer</li>
-                        <li>Landing Page Design</li>
-                        <li>Unique Interface, No Pre-coded Templates</li>
-                        <li>Fully Responsive Website For All Devices</li>
-                    </ul>
+                    <a href="mailto:thewiredome@gmail.com?subject=I Have a Project / Work to Discuss"
+                        class="hire-me link">Hire Me</a>
                 </div>
             </div>
         </div>
         <div class="footer flex">
-            <div class="footer-bottom flex">
-                <div class="s-copyright">
-                    Copyright &#169; 2022 WireDome. All rights reserved
-                </div>
-                <div class="s-policies flex">
-                    <a class="footer-links" href="https://wiredome.com">Privacy policy</a>
-                    <a class="footer-links" href="https://wiredome.com">Cookie preferences</a>
-                    <a class="footer-links" href="https://wiredome.com">Terms of use</a>
-                </div>
-                <div class="social-media-handles flex">
-                    <a class="icon-container" href="https://dribbble.com/wiredome">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32" fill="#fff">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M16 0C7.16703 0 0 7.16703 0 16C0 24.833 7.16703 32 16 32C24.8156 32 32 24.833 32 16C32 7.16703 24.8156 0 16 0ZM26.5683 7.37527C28.4772 9.70065 29.6226 12.6681 29.6573 15.8785C29.2061 15.7918 24.6941 14.872 20.1475 15.4447C20.0434 15.2191 19.9566 14.9761 19.8525 14.7332C19.5748 14.0738 19.2625 13.397 18.9501 12.7549C23.9826 10.7072 26.2733 7.75705 26.5683 7.37527ZM16 2.36009C19.4707 2.36009 22.6464 3.66161 25.0586 5.7961C24.8156 6.14317 22.7505 8.90239 17.8915 10.7245C15.6529 6.61171 13.1714 3.24512 12.7896 2.72451C13.8134 2.48156 14.8894 2.36009 16 2.36009ZM10.1866 3.64425C10.551 4.13015 12.9805 7.5141 15.2538 11.5401C8.86768 13.2408 3.22777 13.2061 2.62039 13.2061C3.50542 8.9718 6.36876 5.44902 10.1866 3.64425ZM2.32538 16.0174C2.32538 15.8785 2.32538 15.7397 2.32538 15.6009C2.9154 15.6182 9.54447 15.705 16.3644 13.6573C16.7636 14.4208 17.128 15.2017 17.4751 15.9826C17.3015 16.0347 17.1106 16.0868 16.9371 16.1388C9.89154 18.4121 6.14317 24.6247 5.8308 25.1453C3.6616 22.7332 2.32538 19.5228 2.32538 16.0174ZM16 29.6746C12.8416 29.6746 9.92625 28.5987 7.61822 26.7939C7.86117 26.2907 10.6377 20.9458 18.3427 18.256C18.3774 18.2386 18.3948 18.2386 18.4295 18.2213C20.3557 23.2017 21.1367 27.3839 21.3449 28.5813C19.6963 29.2928 17.8915 29.6746 16 29.6746ZM23.6182 27.3319C23.4794 26.4989 22.7505 22.5076 20.9631 17.5965C25.2495 16.9197 28.9978 18.0304 29.4664 18.1866C28.8764 21.987 26.6898 25.2668 23.6182 27.3319Z">
-                            </path>
-                        </svg>
-                    </a>
-                    <span class="icon-container">
-                        <i class="bi-facebook"></i>
-                    </span>
-                    <a class="icon-container" href="https://twitter.com/thewiredome" title="WireDome twitter"
-                        target="_blank">
-                        <i class="bi-twitter"></i>
-                    </a>
-                    <a class="icon-container" href="https://www.youtube.com/channel/UCG6ctGSIaOo-r82AlcD8QtA"
-                        title="WireDome youtube">
-                        <i class="bi-youtube"></i>
-                    </a>
-                </div>
+            <div class="copyright-text">
+                Copyright &#169; 2022 WireDome. All rights reserved
+            </div>
+            <div class="policies flex-center">
+                <a class="footer-links link" href="https://wiredome.com">Privacy policy</a>
+                <a class="footer-links link" href="https://wiredome.com">Cookie preferences</a>
+                <a class="footer-links link" href="https://wiredome.com">Terms of use</a>
+            </div>
+            <div class="sm-container flex">
+                <!-- sm = social media -->
+                <a class="sm-icon-container flex-center" href="https://dribbble.com/wiredome" title="Wiredome dribbble"
+                    target="_blank">
+                    <i class="bi-dribbble"></i>
+                </a>
+                <a class="sm-icon-container flex-center" href="https://twitter.com/thewiredome" title="WireDome twitter"
+                    target="_blank">
+                    <i class="bi-twitter"></i>
+                </a>
+                <!-- <a class="sm-icon-container flex-center" href="#" target="_blank" title="WireDome instagram">
+                    <i class="bi-instagram"></i>
+                </a> -->
             </div>
         </div>
-        </section>
+        <div class="scrollBtn flex-center" title="scroll top">
+            <i class="bi-chevron-up"></i>
+        </div>
     </div>
     <script src="assets/scripts/main.js"></script>
 </body>
