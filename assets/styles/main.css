@@ -63,11 +63,14 @@
 }
 
 body {
-    min-width: 370px;
-    max-width: 1280px;
+    /* min-width: 370px;
+    max-width: 1280px; */
+    width: 100%;
 }
 
 .wrapper {
+    min-width: 370px;
+    max-width: 1280px;
     position: relative;
     width: 100%;
     margin: auto;
